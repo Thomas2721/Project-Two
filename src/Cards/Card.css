@@ -1,0 +1,46 @@
+.Card img{
+    width: 300px;
+    padding: 0;
+    height: 200px;
+
+}
+
+.Card {
+    width: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.51);
+    margin: 20px;
+    box-shadow: 0px 0px 13px -5px;
+    transition: 0.3s;
+    animation: ease-in-out;
+
+}
+.Card .title{
+    margin-top: 5px;
+}
+
+.Card .content{
+    font-size: medium;
+    padding: 10px;
+}
+
+.discription button{
+    width: 140px;
+    height: 35px;
+    background-color: rgb(11, 134, 191);
+    border-radius: 6px;
+    border: none;
+}
+.discription button a{
+   color: white;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.Card:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}
+
+
+
